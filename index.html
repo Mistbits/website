@@ -7,42 +7,31 @@
     <style>
         body {
             margin: 0;
+            padding: 0;
+            background: url('Background.jpg') no-repeat center center;
+            background-size: cover;
             font-family: Arial, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background: url('Background.jpg') no-repeat center center fixed;
             color: white;
             text-align: center;
+            height: 100vh;
+            display: flex;
+            align-items: flex-start;
+            justify-content: flex-start;
         }
-        .content {
-            background: rgba(0, 0, 0, 0.5);
-            padding: 20px;
-            border-radius: 10px;
-        }
-        h1 {
-            margin: 0;
-            font-size: 3em;
-        }
-        p {
-            margin: 10px 0 0;
-            font-size: 1.2em;
-        }
-        a {
-            color: #00bfff;
-            text-decoration: none;
+        .contact {
+            font-size: 2em;
             font-weight: bold;
-        }
-        a:hover {
-            text-decoration: underline;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 10px 20px;
+            border-radius: 10px;
+            display: inline-block;
+            margin: 50px 50px;
         }
     </style>
 </head>
 <body>
-    <div class="content">
-        <h1>Mistbits IoT</h1>
-        <p>Contact us: <a href="mailto:hello@mistbits.com">hello@mistbits.com</a></p>
+    <div class="contact">
+        hello@mistbits.com
     </div>
 </body>
 </html>
