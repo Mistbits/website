@@ -1,0 +1,22 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [master]
+
+jobs:
+  html-validate:
+    name: Validate HTML
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      # Static site has no unit tests; HTML linting is the basic sanity check
+      # (malformed tags, duplicate ids, missing alt text, etc.).
+      - name: Lint HTML
+        run: npx --yes htmlhint@^1.1.4 "*.html"

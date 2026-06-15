@@ -1,0 +1,8 @@
+version: 2
+updates:
+  # Static GitHub Pages site — no package manager, so Dependabot just keeps any
+  # GitHub Actions used by the workflows up to date.
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
