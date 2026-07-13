@@ -116,13 +116,26 @@
       }
     }
   </style>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-  <div class="container">
-    <a href="index.html" class="back-link">&larr; Back to Home</a>
+<body class="legal-page">
+  <header class="legal-header">
+    <div class="shell">
+      <a class="brand" href="index.html" aria-label="Mistbits home">
+        <svg class="brand__mark" viewBox="0 0 40 40" aria-hidden="true">
+          <path d="M7 29V11l13 11 13-11v18"></path>
+          <circle cx="7" cy="11" r="2.5"></circle><circle cx="20" cy="22" r="2.5"></circle><circle cx="33" cy="11" r="2.5"></circle><circle cx="7" cy="29" r="2.5"></circle><circle cx="33" cy="29" r="2.5"></circle>
+        </svg>
+        <span>mistbits</span>
+      </a>
+      <h1>Smarta App Privacy Policy</h1>
+      <div class="last-updated">Last updated: November 11, 2024</div>
+    </div>
+  </header>
 
-    <h1>Privacy Policy</h1>
-    <div class="last-updated">Last Updated: November 11, 2024</div>
+  <main class="legal-container">
+    <a href="index.html" class="legal-back">&larr; Back to home</a>
 
     <p>Mistbits ("we", "our", or "us") operates the Smarta mobile application (the "App"). This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our App.</p>
 
@@ -193,7 +206,7 @@
       <li><strong>Firebase Crashlytics:</strong> Collects crash reports, error logs, and performance data</li>
       <li><strong>Firebase Cloud Messaging:</strong> Delivers push notifications to your device</li>
     </ul>
-    <p>Firebase is provided by Google LLC. You can review Google's Privacy Policy at: <a href="https://policies.google.com/privacy" style="color: #7ec9ff;">https://policies.google.com/privacy</a></p>
+    <p>Firebase is provided by Google LLC. You can review Google's Privacy Policy at: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></p>
 
     <h3>3.2 Backend Services</h3>
     <p>The App connects to our backend servers to retrieve and store data. All communications with our servers are encrypted using industry-standard protocols.</p>
@@ -308,12 +321,12 @@
     </ul>
 
     <div class="contact-box">
-      <h2 style="margin-top: 0; border-bottom: none;">14. Contact Us</h2>
+      <h2>14. Contact Us</h2>
       <p>If you have any questions about this Privacy Policy, your data rights, or our privacy practices, please contact us:</p>
       <p>
         <strong>Mistbits</strong><br>
-        Email: <a href="mailto:hello@mistbits.com" style="color: #7ec9ff;">hello@mistbits.com</a><br>
-        Website: <a href="https://www.mistbits.com" style="color: #7ec9ff;">www.mistbits.com</a>
+        Email: <a href="mailto:hello@mistbits.com">hello@mistbits.com</a><br>
+        Website: <a href="https://www.mistbits.com">www.mistbits.com</a>
       </p>
     </div>
 
@@ -321,7 +334,7 @@
 
     <p>By using our App, you hereby consent to our Privacy Policy and agree to its terms.</p>
 
-    <p style="margin-top: 40px; font-size: 0.9em; color: #ccc;">This Privacy Policy was generated for Mistbits Smarta App v1.0.5</p>
-  </div>
+    <p class="legal-note">This Privacy Policy was generated for Mistbits Smarta App v1.0.5</p>
+  </main>
 </body>
 </html>

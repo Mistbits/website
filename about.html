@@ -1,142 +1,157 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-ZA">
 <head>
-  <link rel="icon" href="favicon.ico" type="image/x-icon">  
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>About – Mistbits</title>
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      /* Fallback JPEG */
-      background: #2d7bb4 url('bg-1920.jpg') no-repeat center center fixed;
-      background-size: cover;
-      font-family: Arial, sans-serif;
-      color: white;
-      /* WebP override */
-      background-image: url('bg-1920.webp');
-    }
-
-    @media (max-width: 1300px) {
-      body { background-image: url('bg-1280.webp'); }
-    }
-
-    @media (max-width: 800px) {
-      body {
-        background-image: url('bg-640.webp');
-        background-attachment: scroll;
-      }
-    }
-
-    .section {
-      background: rgba(0, 0, 0, 0.5);
-      padding: 25px 40px;
-      margin: 50px auto;
-      border-radius: 12px;
-      max-width: 700px;
-    }
-
-    .section h2 {
-      margin-top: 0;
-      font-size: 1.8em;
-    }
-
-    .section p {
-      line-height: 1.6;
-    }
-
-    a {
-      color: #ffffff;
-      text-decoration: underline;
-    }
-
-    .back-link {
-      display: block;
-      margin: 30px auto 60px;
-      text-align: center;
-      font-size: 1em;
-      color: white;
-      opacity: 0.7;
-      text-decoration: none;
-    }
-
-    .back-link:hover {
-      opacity: 1;
-    }
-
-    .footer {
-      text-align: center;
-      padding: 20px;
-      margin-top: 40px;
-      font-size: 0.8em;
-      color: rgba(255, 255, 255, 0.6);
-      line-height: 1.4;
-    }
-
-    @media (max-width: 600px) {
-      .section {
-        margin: 30px 20px;
-        padding: 20px;
-      }
-    }
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mistbits is a South African IoT team building connected water systems from field hardware and firmware through to cloud platforms and apps.">
+  <meta name="theme-color" content="#061a20">
+  <meta property="og:title" content="About Mistbits — Built close to the problem">
+  <meta property="og:description" content="A South African IoT team building connected water systems from field hardware through to operational software.">
+  <meta property="og:image" content="https://www.mistbits.com/assets/hero-water-1920.jpg">
+  <title>About Mistbits — Built close to the problem</title>
+  <link rel="canonical" href="https://www.mistbits.com/about.html">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
 
-  <div class="section">
-    <h2>What We Do</h2>
-    <p>
-      We design and build connected systems — devices, embedded software, data pipelines, and dashboards.
-      Most of what we make is custom-built and done in-house, from field hardware to cloud platforms.
-    </p>
-  </div>
+  <header class="site-header site-header--solid">
+    <div class="shell site-header__inner">
+      <a class="brand" href="index.html" aria-label="Mistbits home">
+        <svg class="brand__mark" viewBox="0 0 40 40" aria-hidden="true">
+          <path d="M7 29V11l13 11 13-11v18"></path>
+          <circle cx="7" cy="11" r="2.5"></circle><circle cx="20" cy="22" r="2.5"></circle><circle cx="33" cy="11" r="2.5"></circle><circle cx="7" cy="29" r="2.5"></circle><circle cx="33" cy="29" r="2.5"></circle>
+        </svg>
+        <span>mistbits</span>
+      </a>
 
-  <div class="section">
-    <h2>About Us</h2>
-    <p>
-      One of our longest-running collaborations is <a href="https://www.smartaonline.app" target="_blank">Smarta</a>,
-      a borehole monitoring platform we built alongside a South African water company.
-      From the early days, Mistbits handled everything: custom hardware, firmware, backend, web dashboard, and mobile app.
-      Our two companies grew alongside each other.
-    </p>
-    <p>
-      We're now building the <strong>Mistbits Whisper Network</strong>, a Meshtastic®-based infrastructure for low-power IoT deployments across South Africa.
-      Our own in-house devices will be running on it soon.
-    </p>
-  </div>
+      <nav class="primary-nav" aria-label="Primary navigation">
+        <a href="index.html#capabilities">Capabilities</a>
+        <a href="index.html#work">Our work</a>
+        <a href="about.html" aria-current="page">About</a>
+        <a class="nav-contact" href="mailto:hello@mistbits.com">Talk to us <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
 
-  <div class="section">
-    <h2>Why We Started</h2>
-    <p>
-      Mistbits grew out of a need to solve real problems with reliable, low-power tech.
-      We care more about uptime than buzzwords, and we prefer tools that are quiet, robust, and useful.
-    </p>
-  </div>
+  <main id="main-content">
+    <section class="page-hero">
+      <div class="shell page-hero__inner reveal">
+        <p class="eyebrow"><span></span> About Mistbits / South Africa</p>
+        <h1>Built close to<br><em>the problem.</em></h1>
+        <p class="page-hero__lede">We are a small IoT team that likes hard, useful problems—especially the ones involving water, remote infrastructure, and technology that has to keep working outside the lab.</p>
+      </div>
+    </section>
 
-  <div class="section">
-    <h2>Looking Ahead</h2>
-    <p>
-      The Mistbits Whisper Network is a foundation, not a product. We're exploring edge-connected devices, peer-to-peer tools,
-      and open protocols for off-grid IoT in remote and rural places.
-    </p>
-  </div>
+    <section class="section story-section">
+      <div class="shell story-grid">
+        <aside class="story-aside">
+          <p class="kicker">Where we come from</p>
+          <span class="story-aside__rule"></span>
+          <p>Hardware / firmware<br>cloud / applications</p>
+        </aside>
 
-  <div class="section">
-    <h2>Work With Us</h2>
-    <p>
-      We're always up for honest collaborations — whether that's deploying a system, testing new gear, or building something unconventional.
-      <br /><br />
-      <a href="mailto:hello@mistbits.com">hello@mistbits.com</a>
-    </p>
-  </div>
+        <div class="story-copy">
+          <p class="story-lead">Mistbits grew out of a practical need: make remote water infrastructure easier to see, understand, and operate.</p>
+          <p>One of our longest-running collaborations is Smarta, a borehole and reservoir monitoring platform built alongside a South African water company. From the early field units onward, Mistbits has worked across the custom hardware, firmware, backend, dashboards, reports, and mobile app. The two businesses have grown alongside each other.</p>
+          <p>That work shaped how we build. We prefer direct contact with operators, short feedback loops, and systems we can understand from sensor input to screen. Most of what we make is custom-built and handled in-house, so the device and software can evolve as one system.</p>
+          <p>Water remains at the centre of our work today. Alongside pump and reservoir operations, we are building tools for automatic estate water-meter readings, leak visibility, consumption analytics, and billing workflows.</p>
+        </div>
+      </div>
+    </section>
 
-  <a class="back-link" href="index.html">← Back to Home</a>
+    <section class="section principles-section">
+      <div class="shell">
+        <div class="section-heading section-heading--split">
+          <div>
+            <p class="kicker">What guides us</p>
+            <h2>Useful beats<br>impressive.</h2>
+          </div>
+          <p>Remote systems reward clear thinking. Our principles are simple because the environments we work in are complicated enough.</p>
+        </div>
 
-  <div class="footer">
-    © 2024 Mistbits. All rights reserved.<br>
-    Meshtastic® is a registered trademark of Meshtastic LLC.
-  </div>
+        <div class="principles-grid">
+          <article class="principle">
+            <span>01</span>
+            <div>
+              <h3>Reliability over novelty</h3>
+              <p>We care more about uptime, understandable behaviour, and easy recovery than whatever happens to be fashionable.</p>
+            </div>
+          </article>
+          <article class="principle">
+            <span>02</span>
+            <div>
+              <h3>The whole path matters</h3>
+              <p>A good dashboard cannot rescue bad field data. We design the sensor, connection, backend, and interface as one path.</p>
+            </div>
+          </article>
+          <article class="principle">
+            <span>03</span>
+            <div>
+              <h3>Stay close to operators</h3>
+              <p>The people using the system know where it helps and where it gets in the way. We build with that feedback nearby.</p>
+            </div>
+          </article>
+          <article class="principle">
+            <span>04</span>
+            <div>
+              <h3>Make the data actionable</h3>
+              <p>Telemetry should answer a question, raise the right alarm, trigger useful action, or make the next decision clearer.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
 
+    <section class="section about-network" id="whisper-network">
+      <div class="shell about-network__grid">
+        <div>
+          <p class="eyebrow eyebrow--mint"><span></span> Looking ahead</p>
+          <h2>A quieter kind<br>of <em>network.</em></h2>
+        </div>
+        <div>
+          <p>The Mistbits Whisper Network is a Meshtastic®-based foundation we are exploring for low-power IoT deployments in remote and rural places. It is infrastructure rather than a packaged product: a place for edge-connected devices, peer-to-peer tools, and open protocols to meet real field needs.</p>
+          <ul class="network-notes">
+            <li>Low-power field links <span>01</span></li>
+            <li>Edge-connected devices <span>02</span></li>
+            <li>Open, resilient protocols <span>03</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section">
+      <div class="shell contact-section__inner">
+        <p class="kicker">Work with us</p>
+        <h2>Bring us the<br>field problem.</h2>
+        <a class="contact-email" href="mailto:hello@mistbits.com">hello@mistbits.com <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell site-footer__top">
+      <a class="brand brand--dark" href="index.html" aria-label="Mistbits home">
+        <svg class="brand__mark" viewBox="0 0 40 40" aria-hidden="true">
+          <path d="M7 29V11l13 11 13-11v18"></path>
+          <circle cx="7" cy="11" r="2.5"></circle><circle cx="20" cy="22" r="2.5"></circle><circle cx="33" cy="11" r="2.5"></circle><circle cx="7" cy="29" r="2.5"></circle><circle cx="33" cy="29" r="2.5"></circle>
+        </svg>
+        <span>mistbits</span>
+      </a>
+      <p>South African water IoT.<br>Built for the field.</p>
+      <nav aria-label="Footer navigation">
+        <a href="index.html#capabilities">Capabilities</a>
+        <a href="index.html#work">Our work</a>
+        <a href="about.html">About</a>
+        <a href="privacy-policy.html">Privacy</a>
+      </nav>
+    </div>
+    <div class="shell site-footer__bottom">
+      <span>© 2026 Mistbits. All rights reserved.</span>
+      <span>Designed and built in South Africa <span aria-hidden="true">●</span></span>
+      <span>Meshtastic® is a registered trademark of Meshtastic LLC.</span>
+    </div>
+  </footer>
 </body>
 </html>
