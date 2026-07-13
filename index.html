@@ -3,16 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Mistbits builds connected water monitoring and control systems in South Africa, from boreholes and reservoirs to remote water meters.">
-  <meta name="theme-color" content="#061a20">
-  <meta property="og:title" content="Mistbits — South African water IoT, built for the field">
-  <meta property="og:description" content="Connected water systems designed end to end: field devices, pump control, telemetry, alerts, reports, dashboards, and apps.">
+  <meta name="description" content="Mistbits is a South African software company that designs, builds and maintains IoT platforms, with deep experience in water monitoring, control and metering.">
+  <meta name="theme-color" content="#062f4e">
+  <meta property="og:title" content="Mistbits — IoT platforms, built and maintained">
+  <meta property="og:description" content="We design, build and maintain dependable IoT platforms, mostly around water.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.mistbits.com/">
   <meta property="og:image" content="https://www.mistbits.com/assets/hero-water-1920.jpg">
-  <title>Mistbits — Connected water systems</title>
+  <title>Mistbits — IoT platforms, built and maintained</title>
   <link rel="canonical" href="https://www.mistbits.com/">
   <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="preload" as="image" href="assets/hero-water-768.jpg" media="(max-width: 768px)">
+  <link rel="preload" as="image" href="assets/hero-water-1280.jpg" media="(min-width: 769px) and (max-width: 1300px)">
   <link rel="preload" as="image" href="assets/hero-water-1920.jpg" media="(min-width: 1301px)">
   <link rel="stylesheet" href="styles.css">
   <script type="application/ld+json">
@@ -22,16 +24,16 @@
       "name": "Mistbits",
       "url": "https://www.mistbits.com/",
       "email": "hello@mistbits.com",
-      "description": "South African connected water monitoring and control systems, from field hardware to operational software.",
+      "description": "A South African software company that designs, builds and maintains IoT platforms, with deep experience in water.",
       "areaServed": {
         "@type": "Country",
         "name": "South Africa"
       },
       "knowsAbout": [
-        "Water monitoring",
-        "Borehole pump control",
+        "IoT platform development",
+        "Water monitoring software",
         "Remote water metering",
-        "Internet of Things"
+        "Cloud applications"
       ]
     }
   </script>
@@ -39,7 +41,7 @@
 <body>
   <a class="skip-link" href="#main-content">Skip to content</a>
 
-  <header class="site-header site-header--overlay">
+  <header class="site-header">
     <div class="shell site-header__inner">
       <a class="brand" href="index.html" aria-label="Mistbits home">
         <svg class="brand__mark" viewBox="0 0 40 40" aria-hidden="true">
@@ -54,8 +56,7 @@
       </a>
 
       <nav class="primary-nav" aria-label="Primary navigation">
-        <a href="#capabilities">Capabilities</a>
-        <a href="#work">Our work</a>
+        <a href="#platforms">Platforms</a>
         <a href="about.html">About</a>
         <a class="nav-contact" href="mailto:hello@mistbits.com">Talk to us <span aria-hidden="true">↗</span></a>
       </nav>
@@ -64,249 +65,138 @@
 
   <main id="main-content">
     <section class="hero">
-      <div class="hero__backdrop" aria-hidden="true"></div>
       <div class="shell hero__grid">
-        <div class="hero__copy reveal">
-          <p class="eyebrow"><span></span> South African water IoT / Built for the field</p>
-          <h1>Know the water.<br><em>Run the system.</em></h1>
-          <p class="hero__lede">We build connected water monitoring and control systems—from boreholes and reservoirs to automatic meter readings, alarms, reports, and the apps that bring it all together.</p>
+        <div class="hero__copy">
+          <p class="eyebrow">Software company <span aria-hidden="true">/</span> South Africa</p>
+          <h1>We build and maintain IoT platforms.</h1>
+          <p class="hero__lede">Most of our work is around water—connecting remote infrastructure, data and the people responsible for it.</p>
           <div class="button-row">
-            <a class="button button--primary" href="mailto:hello@mistbits.com">Start a conversation <span aria-hidden="true">↗</span></a>
-            <a class="button button--ghost" href="#capabilities">Explore our work <span aria-hidden="true">↓</span></a>
+            <a class="button button--primary" href="#platforms">See our platforms <span aria-hidden="true">↓</span></a>
+            <a class="text-link" href="mailto:hello@mistbits.com">hello@mistbits.com <span aria-hidden="true">↗</span></a>
           </div>
         </div>
 
-        <aside class="field-console reveal reveal--delay" aria-label="How a Mistbits system connects">
-          <div class="field-console__topline">
-            <span><i class="status-dot"></i> System online</span>
-            <span>WATER LINK / 01</span>
-          </div>
-          <div class="field-console__signal" aria-hidden="true">
-            <span></span><span></span><span></span><span></span><span></span><span></span>
-          </div>
-          <div class="field-console__nodes">
-            <div>
-              <span class="node-icon">01</span>
-              <p><strong>Field unit</strong><small>Sensors and pump control</small></p>
-            </div>
-            <div>
-              <span class="node-icon">02</span>
-              <p><strong>Live telemetry</strong><small>Level, flow, and power</small></p>
-            </div>
-            <div>
-              <span class="node-icon">03</span>
-              <p><strong>Operations</strong><small>Alerts, reports, and apps</small></p>
-            </div>
-          </div>
-          <div class="field-console__footer">
-            <span>DESIGNED END TO END</span>
-            <span class="console-line"></span>
-            <span>ZA</span>
-          </div>
-        </aside>
-      </div>
-
-      <div class="shell discipline-bar" aria-label="Mistbits disciplines">
-        <span>01 <strong>Hardware</strong></span>
-        <span>02 <strong>Firmware</strong></span>
-        <span>03 <strong>Cloud</strong></span>
-        <span>04 <strong>Applications</strong></span>
+        <div class="hero__visual">
+          <picture>
+            <source media="(max-width: 768px)" srcset="assets/hero-water-768.jpg">
+            <source media="(max-width: 1300px)" srcset="assets/hero-water-1280.jpg">
+            <img src="assets/hero-water-1920.jpg" alt="A remotely monitored borehole and water reservoir in the South African landscape" width="1862" height="845" fetchpriority="high">
+          </picture>
+        </div>
       </div>
     </section>
 
-    <section class="section section--light" id="capabilities">
-      <div class="shell">
-        <div class="section-heading section-heading--split">
+    <section class="section software-section" id="software">
+      <div class="shell split-heading">
+        <div>
+          <p class="eyebrow">What we do</p>
+          <h2>The software between the device and the decision.</h2>
+        </div>
+        <p class="section-intro">We take care of the full software layer behind an IoT service, then stay involved to keep it dependable as the product and its users grow.</p>
+      </div>
+
+      <div class="shell service-list">
+        <article>
+          <span>01</span>
           <div>
-            <p class="kicker">What we build</p>
-            <h2>One system.<br>Every layer.</h2>
+            <h3>Platform engineering</h3>
+            <p>Backends, APIs, telemetry pipelines, automation, integrations and the infrastructure that holds everything together.</p>
           </div>
-          <p>Field technology is only useful when every part works together. We take responsibility for the full connected system, keeping the hard edges between disciplines out of your way.</p>
-        </div>
-
-        <div class="capability-grid">
-          <article class="capability-card capability-card--featured">
-            <span class="capability-card__number">01</span>
-            <div class="capability-card__icon" aria-hidden="true">
-              <svg viewBox="0 0 56 56"><rect x="10" y="10" width="36" height="36" rx="3"></rect><path d="M20 2v8M36 2v8M20 46v8M36 46v8M2 20h8M2 36h8M46 20h8M46 36h8M22 22h12v12H22z"></path></svg>
-            </div>
-            <h3>Water in the field</h3>
-            <p>Purpose-built controllers and sensor interfaces for boreholes, pumps, reservoirs, flow meters, and existing mechanical meters.</p>
-            <ul class="tag-list" aria-label="Field hardware services">
-              <li>Pump control</li>
-              <li>Level and flow</li>
-              <li>Meter retrofits</li>
-            </ul>
-          </article>
-
-          <article class="capability-card">
-            <span class="capability-card__number">02</span>
-            <div class="capability-card__icon" aria-hidden="true">
-              <svg viewBox="0 0 56 56"><circle cx="28" cy="28" r="5"></circle><circle cx="28" cy="28" r="14"></circle><path d="M11 11a24 24 0 0 1 34 0M45 45a24 24 0 0 1-34 0"></path></svg>
-            </div>
-            <h3>Telemetry and automation</h3>
-            <p>Firmware and services that carry readings and commands between remote water assets and the people responsible for them.</p>
-            <ul class="tag-list" aria-label="Connected software services">
-              <li>Remote commands</li>
-              <li>Alarms and triggers</li>
-              <li>Data platforms</li>
-            </ul>
-          </article>
-
-          <article class="capability-card">
-            <span class="capability-card__number">03</span>
-            <div class="capability-card__icon" aria-hidden="true">
-              <svg viewBox="0 0 56 56"><rect x="6" y="9" width="44" height="34" rx="3"></rect><path d="M15 34V27M23 34V20M31 34V24M39 34V15M20 49h16M28 43v6"></path></svg>
-            </div>
-            <h3>Water operations</h3>
-            <p>Web, mobile, and reporting tools for live pump state, water levels, consumption, energy use, site health, and billing workflows.</p>
-            <ul class="tag-list" aria-label="Operational tools services">
-              <li>Live dashboards</li>
-              <li>Mobile control</li>
-              <li>PDF reporting</li>
-            </ul>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section section--work" id="work">
-      <div class="shell">
-        <div class="section-heading section-heading--split">
+        </article>
+        <article>
+          <span>02</span>
           <div>
-            <p class="kicker">Connected water in practice</p>
-            <h2>Two scales.<br>One water story.</h2>
+            <h3>Apps and interfaces</h3>
+            <p>Clear web and mobile tools for monitoring, control, alerts, reporting, analytics and day-to-day operations.</p>
           </div>
-          <p>Our work stretches from a single pump in the veld to every water meter across a residential estate. The common thread is dependable field data turned into useful operational action.</p>
-        </div>
-
-        <div class="product-stack">
-          <article class="product-case">
-            <div class="product-case__visual product-case__visual--field" role="img" aria-label="Connected borehole pump and water tank in a South African field">
-              <span class="coordinate coordinate--top">BOREHOLE / RESERVOIR</span>
-              <span class="coordinate coordinate--bottom">LIVE FIELD OPERATIONS</span>
-            </div>
-            <div class="product-case__copy">
-              <span class="product-case__number">01 / SMARTA FIELD SYSTEMS</span>
-              <h3>From borehole<br>to browser.</h3>
-              <p>Monitor and control borehole pumps and reservoirs from the field or the phone. Live pump state, water level, flow, energy use, alarms, automation rules, and scheduled reports share one operational picture.</p>
-              <ul class="product-features">
-                <li>Remote pump monitoring and control</li>
-                <li>Water and electrical performance</li>
-                <li>Alarms, triggers, and scheduled reporting</li>
-              </ul>
-              <a class="text-link" href="https://www.smartaonline.app" target="_blank" rel="noopener noreferrer">Visit Smarta <span aria-hidden="true">↗</span></a>
-            </div>
-          </article>
-
-          <article class="product-case product-case--reverse" id="estate-metering">
-            <div class="product-case__visual product-case__visual--estate">
-              <picture>
-                <source srcset="assets/smarta-estate-retrofit.avif" type="image/avif">
-                <img src="assets/smarta-estate-retrofit.jpg" alt="A compact telemetry interface retrofitted to an existing household water meter" width="1672" height="941" loading="lazy" decoding="async">
-              </picture>
-              <span class="coordinate coordinate--top">REMOTE WATER METERING</span>
-              <span class="coordinate coordinate--bottom">EXISTING METER RETAINED</span>
-            </div>
-            <div class="product-case__copy">
-              <span class="product-case__number">02 / SMARTA ESTATE</span>
-              <h3>Every meter.<br>One clear view.</h3>
-              <p>Retrofit compatible mechanical meters for automatic readings without replacing the meter or building an estate gateway. Managers can track consumption, investigate leaks, run billing, and give residents secure access to their own water history.</p>
-              <ul class="product-features">
-                <li>Automatic daily or hourly readings</li>
-                <li>Leak, burst, and offline-meter alerts</li>
-                <li>Consumption analytics and billing workflows</li>
-              </ul>
-              <a class="text-link" href="https://www.smartaestate.co.za" target="_blank" rel="noopener noreferrer">Visit Smarta Estate <span aria-hidden="true">↗</span></a>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section network-section" id="network">
-      <div class="network-grid" aria-hidden="true"></div>
-      <div class="shell network-section__inner">
-        <div class="network-copy">
-          <p class="eyebrow eyebrow--mint"><span></span> Research and infrastructure</p>
-          <h2>The Mistbits<br><em>Whisper Network.</em></h2>
-          <p>A Meshtastic®-based foundation for low-power IoT deployments in remote and rural places. We are exploring open protocols, edge-connected devices, and resilient links designed around South African conditions.</p>
-          <a class="button button--outline-mint" href="about.html#whisper-network">Read about the direction <span aria-hidden="true">→</span></a>
-        </div>
-
-        <div class="network-diagram" aria-label="Illustration of a low-power mesh network">
-          <span class="mesh-node mesh-node--a"><i></i><b>EDGE 01</b></span>
-          <span class="mesh-node mesh-node--b"><i></i><b>RELAY</b></span>
-          <span class="mesh-node mesh-node--c"><i></i><b>FIELD 07</b></span>
-          <span class="mesh-node mesh-node--d"><i></i><b>GATEWAY</b></span>
-          <svg viewBox="0 0 600 420" role="img" aria-label="Four connected nodes">
-            <path d="M100 300L260 150L480 105M260 150L435 320M100 300L435 320M480 105L435 320"></path>
-            <path class="mesh-line--active" d="M100 300L260 150L480 105"></path>
-          </svg>
-        </div>
-      </div>
-    </section>
-
-    <section class="section approach-section">
-      <div class="shell">
-        <div class="section-heading section-heading--split section-heading--compact">
+        </article>
+        <article>
+          <span>03</span>
           <div>
-            <p class="kicker">How we work</p>
-            <h2>Small team.<br>Close to the problem.</h2>
+            <h3>Long-term support</h3>
+            <p>Hosting, monitoring, maintenance, upgrades and practical support for platforms that need to keep working.</p>
           </div>
-          <p>We work directly with the people operating the system. That short feedback loop keeps the technology useful, understandable, and ready to evolve.</p>
-        </div>
+        </article>
+      </div>
+    </section>
 
-        <ol class="approach-list">
-          <li>
-            <span>01</span>
-            <h3>Understand the field</h3>
-            <p>Start with the environment, constraints, operators, and real-world failure modes.</p>
-          </li>
-          <li>
-            <span>02</span>
-            <h3>Build the whole path</h3>
-            <p>Design the device, connection, data, and interface as one coherent system.</p>
-          </li>
-          <li>
-            <span>03</span>
-            <h3>Learn through use</h3>
-            <p>Deploy, observe, and improve alongside the people relying on it every day.</p>
-          </li>
-        </ol>
+    <section class="section platform-section" id="platforms">
+      <div class="shell section-heading">
+        <p class="eyebrow">Platforms we build and maintain</p>
+        <h2>Water, made easier to manage.</h2>
+      </div>
+
+      <div class="shell platform-grid">
+        <article class="platform-card">
+          <div class="platform-card__image platform-card__image--field">
+            <picture>
+              <source media="(max-width: 768px)" srcset="assets/hero-water-768.jpg">
+              <img src="assets/hero-water-1280.jpg" alt="A connected borehole and reservoir system" width="1280" height="581" loading="lazy" decoding="async">
+            </picture>
+          </div>
+          <div class="platform-card__body">
+            <p class="platform-card__label">Smarta</p>
+            <h3>Remote water operations</h3>
+            <p>One platform for boreholes, reservoirs and pumps—bringing live status, automation, alerts, performance and reporting together.</p>
+            <a class="text-link" href="https://www.smartaonline.app" target="_blank" rel="noopener noreferrer">Visit Smarta <span aria-hidden="true">↗</span></a>
+          </div>
+        </article>
+
+        <article class="platform-card">
+          <div class="platform-card__image">
+            <picture>
+              <source srcset="assets/smarta-estate-retrofit.avif" type="image/avif">
+              <img src="assets/smarta-estate-retrofit.jpg" alt="A remote reading interface fitted to an existing household water meter" width="1672" height="941" loading="lazy" decoding="async">
+            </picture>
+          </div>
+          <div class="platform-card__body">
+            <p class="platform-card__label">Smarta Estate</p>
+            <h3>Remote water metering</h3>
+            <p>Readings, leak alerts, consumption history and billing tools for residential estates, managers and residents.</p>
+            <a class="text-link" href="https://www.smartaestate.co.za" target="_blank" rel="noopener noreferrer">Visit Smarta Estate <span aria-hidden="true">↗</span></a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section partnership-section">
+      <div class="shell partnership-card">
+        <div>
+          <p class="eyebrow">Built for the long run</p>
+          <h2>We stay with what we build.</h2>
+        </div>
+        <div class="partnership-copy">
+          <p>IoT platforms are living systems. Devices change, users ask better questions and operations evolve. We work as a long-term software partner—keeping the platform healthy while improving it with the people who rely on it.</p>
+          <a class="text-link" href="about.html">More about Mistbits <span aria-hidden="true">→</span></a>
+        </div>
       </div>
     </section>
 
     <section class="contact-section" id="contact">
       <div class="shell contact-section__inner">
-        <p class="kicker">Have a field problem?</p>
-        <h2>Let’s build something<br>that earns its place.</h2>
+        <p class="eyebrow">Have an IoT platform in mind?</p>
+        <h2>Let’s talk about it.</h2>
         <a class="contact-email" href="mailto:hello@mistbits.com">hello@mistbits.com <span aria-hidden="true">↗</span></a>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <div class="shell site-footer__top">
-      <a class="brand brand--dark" href="index.html" aria-label="Mistbits home">
+    <div class="shell site-footer__inner">
+      <a class="brand" href="index.html" aria-label="Mistbits home">
         <svg class="brand__mark" viewBox="0 0 40 40" aria-hidden="true">
           <path d="M7 29V11l13 11 13-11v18"></path>
           <circle cx="7" cy="11" r="2.5"></circle><circle cx="20" cy="22" r="2.5"></circle><circle cx="33" cy="11" r="2.5"></circle><circle cx="7" cy="29" r="2.5"></circle><circle cx="33" cy="29" r="2.5"></circle>
         </svg>
         <span>mistbits</span>
       </a>
-      <p>South African water IoT.<br>Built for the field.</p>
+      <p>IoT software, built and maintained in South Africa.</p>
       <nav aria-label="Footer navigation">
-        <a href="#capabilities">Capabilities</a>
-        <a href="#work">Our work</a>
         <a href="about.html">About</a>
         <a href="privacy-policy.html">Privacy</a>
+        <a href="mailto:hello@mistbits.com">Contact</a>
       </nav>
-    </div>
-    <div class="shell site-footer__bottom">
-      <span>© 2026 Mistbits. All rights reserved.</span>
-      <span>Designed and built in South Africa <span aria-hidden="true">●</span></span>
-      <span>Meshtastic® is a registered trademark of Meshtastic LLC.</span>
+      <span class="site-footer__copyright">© 2026 Mistbits</span>
     </div>
   </footer>
 </body>
